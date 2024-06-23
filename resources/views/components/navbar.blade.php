@@ -1,12 +1,16 @@
-<nav class=" relative z-20 top-0 w-full h-[92px] bg-[rgba(59,63,70,1)]  px-10 py-5 flex">
-        <div class="foto w-[43px] h-[48px] top-[22px] left-[53px] bg-[rgba(217,217,217,1)]"></div>
-        <div class="sitename text-xl px-5 py-2.5 text-[rgba(241,194,50,1)]">Site name</div>
-        <div class="absolute right-10 flex">
-            <div class="page text-xl px-5 py-2.5 text-[rgba(241,194,50,1)]"><a href="">page 1</a></div>
-            <div class="page text-xl px-5 py-2.5 text-[rgba(241,194,50,1)]"><a href="">page 2</a></div>
-            <div class="page text-xl px-5 py-2.5 text-[rgba(241,194,50,1)]"><a href="">page 3</a></div>
-            <div class=" text-base pengajuan w-[129px] h-[52px] bg-[rgba(241,194,50,1)] rounded-lg">
-                <h1 class="px-6 py-3 "><a href="">Pengajuan</a></h1>
-            </div>
-        </div>     
+<nav class="z-30 top-0 w-full h-[75px] bg-[rgba(10,93,82,1)]  fixed flex items-center justify-center border-black border-2">
+    <div class="content w-[70%] h-4/5 border-black border-2 flex items-center ">
+       <img src="img/f.jpg" alt="" class="h-10">
+       <h1 class="font-body text-white text-xl m-1">FIXnCREATE</h1>
+       <div class="link h-4/5 border-black border-2  items-center  w-5/12 ml-auto flex justify-between">
+            <a href="/portofolio"> <h2 class="font-body text-white text-base m-1">Portofolio</h2></a>
+            <a href="/#jasa"> <h2 class="font-body text-white text-base m-1">Jasa</h2></a>
+            <a href="/#alur"> <h2 class="font-body text-white text-base m-1">Alur</h2></a>
+            <a href="/form"class="bg-[rgba(167,228,223,1)] h-full rounded-2xl w-24 flex items-center justify-center">
+                <h2 class="font-body text-black text-xs m-1">pengajuan</h2>
+            </a>
+            
+       </div>
+    </div>
+    
 </nav>

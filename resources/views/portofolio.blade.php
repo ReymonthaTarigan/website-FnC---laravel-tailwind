@@ -6,19 +6,20 @@
     @vite('resources/css/app.css')
     <title>Beranda</title>
 </head>
-<body class=" bg-[rgba(221,221,221,1)] overflow-x-hidden  ">
+<body class=" pt-[75px]  ">
 <x-navbar></x-navbar>
-  <x-background-form></x-background-form>
 
   
-  <div class="container min-h-screen relative  z-20">
+  <div class="container min-h-screen flex justify-center">
 
-    <div class="portofolio  w-[922px] m-auto">
+    <div class="portofolio   w-[70%]  flex-col pb-36">
         
-        <h1 class="text-[64px] font-bold mt-20">Portofolio</h1>
-        <div class="bg-white  h-[1148px] ">
-            
+    <h1 class="font-body text-black text-4xl underline underline-offset-8 mt-20 mb-16 font-medium">Portofolio</h1>
+
+    <div class="website flex  h-[1148px] shadow-[4px_4px_4px_rgba(0,0,0,0.25)]">
+                        
     </div>
+        
    </div>
     
 
@@ -26,7 +27,7 @@
     
 
 </div>
-   <x-footer-form></x-footer-form>
+   <x-footer></x-footer>
 
 </body>
 </html>

@@ -12,3 +12,11 @@ Route::get('/form', function () {
 Route::get('/portofolio', function () {
     return view('portofolio');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/dataPesanan', function () {
+    return view('dataPesanan');
+});
