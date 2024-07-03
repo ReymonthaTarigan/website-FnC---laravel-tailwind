@@ -15,7 +15,8 @@
     <div class="container flex justify-center">
     <div class="form  border-black border-2 w-[70%]  flex-col pb-36">
         <h1 class="font-body text-black text-4xl underline underline-offset-8 mt-20 mb-16">Formulir Pengajuan Proyek</h1>
-        <form>
+        <form method="POST" action="{{ route('form') }}">
+            @csrf
             <label for="fname" class="font-body text-black font-medium  text-base ">Nama</label><br>
             <input type="text" id="fname" name="fname" class="w-[626px] h-[48px] py-[16px] px-[12px] rounded-lg	text-lg	font-medium	leading-6 mt-2 mb-8  border-gray-200 border-2" placeholder="Nama"><br>
 
