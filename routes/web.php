@@ -16,13 +16,20 @@ Route::get('/token', function () {
     return csrf_token();
 });
 
-Route::get('/portofolio', function () {
+Route::get('/porto', function () {
     return view('portofolio');
 });
+
+Route::get('/pengajuanPesanan', function () {
+    return view('pengajuanPesanan');
+});
+
+
 
 Route::get('/login', function () {
     return view('login');
 })->name('login');
+
 
 Route::post('/login', [LoginController::class, 'authenticate']);
 
