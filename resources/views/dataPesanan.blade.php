@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
     <title>Data Pesanan</title>
 </head>
+
 <body class="pt-[75px] min-h-screen flex flex-col">
     <x-navbar></x-navbar>
     <div class="flex-grow">
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 class="font-body text-black text-4xl underline underline-offset-8 mt-20 mb-10">Data Pesanan</h1>
             <div class="overflow-x-auto">
                 <table class="min-w-full border border-green-900">
@@ -55,4 +57,5 @@
     </div>
     <x-footer></x-footer>
 </body>
+
 </html>
