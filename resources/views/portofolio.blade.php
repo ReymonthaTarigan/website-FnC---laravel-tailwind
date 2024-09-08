@@ -20,7 +20,12 @@
         
             <div class="max-h-full overflow-y-auto">
           
-              <img src="" alt="Gambar 1" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/1.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/2.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/3.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/4.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/5.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
+              <img src="img/portofolio/6.jpg" alt="portofolio" class="w-full h-auto rounded-lg">
           
             </div>
               
