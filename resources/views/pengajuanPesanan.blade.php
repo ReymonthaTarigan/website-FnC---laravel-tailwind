@@ -19,20 +19,6 @@
             <a href="https://wa.me/+6282113230068"><button id="btn-back" class="font-body mt-10 mb-10 text-white bg-[rgba(10,93,82,1)] h-10 rounded-2xl w-24 flex items-center justify-center text-xs hover:bg-teal-700">WhatsApp</button></a>
         </div>
     </div>
-
-    @if(session('success'))
-    <div class="alert alert-success">
-        {{ session('success') }}
-    </div>
-    @endif
-
-    @if(session('error'))
-    <div class="alert alert-danger">
-        {{ session('error') }}
-    </div>
-    @endif
-
-
     <x-footer></x-footer>
 </body>
 
