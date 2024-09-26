@@ -17,7 +17,7 @@
                 </h2>
                 <h2 class="font-body text-white mt-6 text-base text-justify pr-8">Melalui Fix n Create, pengguna dapat mendiskusikan kebutuhan proyek mereka, memperoleh estimasi biaya, dan berkolaborasi dengan para pengembang dalam setiap tahap pembuatan. 
                 </h2>
-                <a href="" class="bg-[rgba(167,228,223,1)] h-10 rounded-2xl w-24 flex items-center justify-center mt-14 hover:bg-[#66b5ae]">
+                <a href="/form" class="bg-[rgba(167,228,223,1)] h-10 rounded-2xl w-24 flex items-center justify-center mt-14 hover:bg-[#66b5ae]">
                     <h2 class="font-body text-black text-xs m-1">Pengajuan</h2>
                 </a>
             </div>

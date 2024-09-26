@@ -37,3 +37,6 @@ Route::post('/logout', [LoginController::class, 'logout']);
 
 Route::get('/dataPesanan', [FormController::class, 'read_data'])->middleware('auth');
 
+Route::post('/submit-form', [FormController::class, 'save_data'])->name('form.submit');
+
+

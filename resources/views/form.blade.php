@@ -15,7 +15,7 @@
     <div class="container flex justify-center bg-no-repeat  bg-cover   " style="background-image: url(latar/latarForm.jpg)">
         <div class="form  w-full md:w-[70%] flex-col pb-36 px-4 md:px-0">
             <h1 class="font-body text-black text-4xl underline underline-offset-8 mt-20 mb-16">Formulir Pengajuan Proyek</h1>
-            <form method="post" action="{{ route('form.submit') }}">
+            <form method="POST" action="{{ route('form.submit') }}">
                 @csrf
                 <div class="mb-8">
                     <label for="fname" class="font-body text-black font-medium text-base">Nama</label><br>
