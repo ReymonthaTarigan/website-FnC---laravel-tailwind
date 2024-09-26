@@ -13,14 +13,16 @@ return new class extends Migration
     {
         Schema::create('fnc_request', function (Blueprint $table) {
             $table->id('id_request'); // Primary key with auto increment
-            $table->string('nama');
+            $table->string('fname');
             $table->string('email');
-            $table->string('nomor_whatsapp');
-            $table->string('jenis_proyek');
-            $table->text('deskripsi_proyek');
+            $table->string('phone');
+            $table->string('instansi');
+            $table->string('project_type')->nullable();
+            $table->string('other_project')->nullable();
+            $table->text('project_desc');
+            $table->decimal('cost', 10, 2);
             $table->date('deadline');
-            $table->string('design_confirm');
-            $table->timestamps(); // created_at and updated_at timestamps
+            $table->string('project_status');
         });
     }
 

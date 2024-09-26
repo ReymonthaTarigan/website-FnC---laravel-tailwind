@@ -12,12 +12,15 @@ class Form extends Model
     protected $primaryKey = 'id_request';
     public $timestamps = false;
     protected $fillable = [
-        'nama',
+        'fname',
         'email',
-        'nomor_whatsapp',
-        'jenis_proyek',
-        'deskripsi_proyek',
+        'phone',
+        'instansi',
+        'project_type',
+        'other_project',
+        'project_desc',
+        'cost',
         'deadline',
-        'design_confirm'
+        'project_status',
     ];
 }

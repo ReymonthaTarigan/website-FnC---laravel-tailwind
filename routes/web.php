@@ -24,8 +24,6 @@ Route::get('/pengajuanPesanan', function () {
     return view('pengajuanPesanan');
 });
 
-
-
 Route::get('/login', function () {
     return view('login');
 })->name('login');
@@ -33,7 +31,7 @@ Route::get('/login', function () {
 
 Route::post('/login', [LoginController::class, 'authenticate']);
 
-Route::post('/form',[FormController::class, 'save_data']);
+Route::post('/form', [FormController::class, 'save_data'])->name('form.submit');
 
 Route::post('/logout', [LoginController::class, 'logout']);
 
