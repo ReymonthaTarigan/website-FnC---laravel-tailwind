@@ -63,7 +63,7 @@
                     <input type="date" id="deadline" name="deadline" class="w-full h-[48px] py-[16px] px-[12px] rounded-lg text-lg font-medium leading-6 mt-2 border-gray-200 border-2" placeholder="YYYY-MM-DD">
                 </div>
 
-                <h3 class="font-body text-black font-medium text-base mb-6">Apakah sudah memiliki proyek</h3>
+                <h3 class="font-body text-black font-medium text-base mb-6">Apakah sudah gambaran kasar/design proyek?</h3>
                 <div class="mb-8">
                     <input type="radio" id="yes" name="project_status" value="Sudah">
                     <label for="yes" class="font-body text-black font-medium text-base">Sudah</label><br>
