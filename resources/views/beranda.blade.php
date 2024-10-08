@@ -22,7 +22,7 @@
                 </a>
             </div>
             <div class="image ml-auto xl:contents hidden">
-                <img src="img/ngoding.jpg" class="w-96" alt="">
+                <img src="img/ngoding.png" class="w-96" alt="">
             </div>
         </div>
         <div class="kenapaFnc xl:w-[70%] w-[90%]  flex flex-col mt-40 pb-52">
