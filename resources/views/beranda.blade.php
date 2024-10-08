@@ -86,7 +86,7 @@
                 <img src="img/LainnyaIcon.png" class="w-24 h-24 my-auto object-contain mr-5" alt="">
                 <div class="ml-4">
                     <h3 class="font-body text-black mt-8 text-xl">Lainnya</h3>
-                    <h4 class="font-body text-black mt-4 text-sm">Penjelasan</h4>
+                    <h4 class="font-body text-black mt-4 text-sm">Layanan tambahan lain yang masih berkaitan</h4>
                 </div>
             </div>
         </div>
