@@ -93,10 +93,15 @@
     </div>
     <div id="alur" class="alurPemesanan xl:w-[70%] w-[90%]  flex flex-col pt-20">
         <h1 class="font-body text-black text-4xl underline underline-offset-8 mb-10">Alur Pemesanan</h1>
-        <div class="shadow-[4px_4px_4px_rgba(0,0,0,0.25)] text-center h-96 bg-white">
-            <h1 id="step-title" class="font-body text-black text-4xl underline underline-offset-8 mb-10">Mengisi Form Request</h1>
-            <p id="step-description" class="font-body text-black mt-8 text-xl">Isi form untuk mengajukan proyek yang anda inginkan dan jelaskan detail dari proyek yang akan dibuat.</p>
+        <div class="shadow-[4px_4px_4px_rgba(0,0,0,0.25)] text-center h-auto lg:h-80 px-5 lg:px-10 w-11/12 md:w-4/5 mx-auto p-5 lg:p-10 bg-white">
+            <h1 id="step-title" class="font-body text-black text-2xl md:text-3xl lg:text-4xl underline underline-offset-8 mb-6 lg:mb-10">
+                Mengisi Form Request
+            </h1>
+            <p id="step-description" class="font-body text-black mt-4 md:mt-6 lg:mt-8 text-base md:text-lg lg:text-xl">
+                Isi form untuk mengajukan proyek yang anda inginkan dan jelaskan detail dari proyek yang akan dibuat.
+            </p>
         </div>
+
         <div class="w-full mb-8 progress mx-auto mt-10">
             <div class="relative flex items-center justify-between">
                 <!-- Garis Progress -->
