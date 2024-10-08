@@ -17,39 +17,34 @@
                 <table class="min-w-full border border-green-900">
                     <thead class="bg-[rgba(10,93,82,1)]">
                         <tr>
-                            <th class="py-2 px-4 text-left text-white"></th>
-                            <th class="py-2 px-4 text-left text-white"></th>
+                            <th class="py-2 px-4 text-left text-white">Nama</th>
+                            <th class="py-2 px-4 text-left text-white">Email</th>
+                            <th class="py-2 px-4 text-left text-white">Phone</th>
+                            <th class="py-2 px-4 text-left text-white">Instansi</th>
+                            <th class="py-2 px-4 text-left text-white">Project Desc</th>
+                            <th class="py-2 px-4 text-left text-white">Cost</th>
+                            <th class="py-2 px-4 text-left text-white">Deadline</th>
+                            <th class="py-2 px-4 text-left text-white">Status</th>
+                            <th class="py-2 px-4 text-left text-white">Aksi</th>
                         </tr>
                     </thead>
                     <tbody class="bg-[rgba(167,228,223,1)]">
+                        @foreach($data as $item)
                         <tr class="border-b border-green-900">
-                            <td class="py-2 px-4"></td>
+                            <td class="py-2 px-4">{{ $item->fname }}</td>
+                            <td class="py-2 px-4">{{ $item->email }}</td>
+                            <td class="py-2 px-4">{{ $item->phone }}</td>
+                            <td class="py-2 px-4">{{ $item->instansi }}</td>
+                            <td class="py-2 px-4">{{ $item->project_desc }}</td>
+                            <td class="py-2 px-4">{{ $item->cost }}</td>
+                            <td class="py-2 px-4">{{ $item->deadline }}</td>
+                            <td class="py-2 px-4">{{ $item->project_status }}</td>
                             <td class="py-2 px-4 flex justify-end space-x-2">
                                 <button class="bg-green-500 text-white px-3 py-1 rounded">Edit</button>
                                 <button class="bg-red-500 text-white px-3 py-1 rounded">Hapus</button>
                             </td>
                         </tr>
-                        <tr class="border-b border-green-900">
-                            <td class="py-2 px-4"></td>
-                            <td class="py-2 px-4 flex justify-end space-x-2">
-                                <button class="bg-green-500 text-white px-3 py-1 rounded">Edit</button>
-                                <button class="bg-red-500 text-white px-3 py-1 rounded">Hapus</button>
-                            </td>
-                        </tr>
-                        <tr class="border-b border-green-900">
-                            <td class="py-2 px-4"></td>
-                            <td class="py-2 px-4 flex justify-end space-x-2">
-                                <button class="bg-green-500 text-white px-3 py-1 rounded">Edit</button>
-                                <button class="bg-red-500 text-white px-3 py-1 rounded">Hapus</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-4"></td>
-                            <td class="py-2 px-4 flex justify-end space-x-2">
-                                <button class="bg-green-500 text-white px-3 py-1 rounded">Edit</button>
-                                <button class="bg-red-500 text-white px-3 py-1 rounded">Hapus</button>
-                            </td>
-                        </tr>
+                        @endforeach
                     </tbody>
                 </table>
             </div>
