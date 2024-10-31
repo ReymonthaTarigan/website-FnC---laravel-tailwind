@@ -52,7 +52,7 @@ class FormController extends Controller
 
             // Coba kirim email
             try {
-                Mail::to('kyokaruri@gmail.com')->send(new FormSubmitted($req->all()));
+                Mail::to('wirus.himatif@gmail.com')->send(new FormSubmitted($req->all()));
             } catch (\Exception $e) {
                 // Jika pengiriman email gagal, beri pesan error namun tetap lanjut redirect
                 return redirect('/pengajuanPesanan')->with('error', 'Data tersimpan, tetapi pengiriman email gagal: ' . $e->getMessage());
