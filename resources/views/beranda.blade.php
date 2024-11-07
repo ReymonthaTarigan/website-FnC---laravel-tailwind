@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="w-full xl:w-1/3  flex mb-4 xl:mb-0">
-            <img src="img/pengalamanIcon.png" class="w-16 h-16 object-contain my-auto" alt="">
+            <img src="img/PengalamanIcon.png" class="w-16 h-16 object-contain my-auto" alt="">
             <div class="ml-4">
                 <h3 class="font-body text-white mt-1 text-xl">Berpengalaman</h3>
                 <h4 class="font-body text-white mt-4 text-sm text-justify pr-5">Dengan menggunakan jasa ini anda bisa bekerjasama dengan Mahasiswa Teknik Informatika yang berpengalaman dalam bidang yang mereka tekuni saat ini.</h4>
